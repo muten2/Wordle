@@ -1,0 +1,31 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-weight: bold;
+}
+.board-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(120, 124, 126, 0.4);
+  width: 60px;
+  height: 60px;
+  font-size: 50px;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
